@@ -1,0 +1,6 @@
+/Users/SHeimsoth/Projects/PinKeyboard/PinKeyboard/bin/Debug/PinKeyboard.dll
+/Users/SHeimsoth/Projects/PinKeyboard/PinKeyboard/bin/Debug/PinKeyboard.pdb
+/Users/SHeimsoth/Projects/PinKeyboard/PinKeyboard/obj/Debug/PinKeyboard.csproj.CoreCompileInputs.cache
+/Users/SHeimsoth/Projects/PinKeyboard/PinKeyboard/obj/Debug/PinKeyboard.dll
+/Users/SHeimsoth/Projects/PinKeyboard/PinKeyboard/obj/Debug/PinKeyboard.pdb
+/Users/SHeimsoth/Projects/PinKeyboard/PinKeyboard/obj/Debug/PinKeyboard.csprojAssemblyReference.cache

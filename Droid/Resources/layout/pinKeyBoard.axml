@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+              android:orientation="vertical" 
+              android:layout_width="match_parent" 
+              android:layout_height="match_parent">
+    <RelativeLayout
+     
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/relativeLayout1" />
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.75">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="#263238"
+            android:id="@+id/tableLayout1">
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_weight="1">
+                <TextView
+                    p4:placeholder="true"
+                    android:layout_weight="1"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:text="t1"
+                    android:textColor="#DFE1E2"
+                    android:gravity="center"
+                    android:id="@+id/tv1" />
+                <TextView
+                    p4:placeholder="true"
+                    android:layout_weight="1"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#DFE1E2"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:id="@+id/tv2" />
+                <TextView
+                    p4:placeholder="true"
+                    android:minWidth="30px"
+                    android:layout_weight="1"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#DFE1E2"
+                    android:gravity="center"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:id="@+id/tv3" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_weight="1">
+                <TextView
+                    p4:placeholder="true"
+                    android:layout_weight="1"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#DFE1E2"
+                    android:gravity="center"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:id="@+id/tv4" />
+                <TextView
+                    p4:placeholder="true"
+                    android:layout_weight="1"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#DFE1E2"
+                    android:gravity="center"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:id="@+id/tv5" />
+                <TextView
+                    p4:placeholder="true"
+                    android:layout_weight="1"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#DFE1E2"
+                    android:gravity="center"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:id="@+id/tv6" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_weight="1">
+                <TextView
+                    p4:placeholder="true"
+                    android:layout_weight="1"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#DFE1E2"
+                    android:gravity="center"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:id="@+id/tv7" />
+                <TextView
+                    p4:placeholder="true"
+                    android:layout_weight="1"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#DFE1E2"
+                    android:gravity="center"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:id="@+id/tv8" />
+                <TextView
+                    p4:placeholder="true"
+                    android:layout_weight="1"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#DFE1E2"
+                    android:gravity="center"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:id="@+id/tv9" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_weight="1">
+                <TextView
+                    p4:placeholder="true"
+                    android:layout_weight="1"
+                    android:text="⌫"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#DFE1E2"
+                    android:gravity="center"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:id="@+id/tvBackspace" />
+                <TextView
+                    p4:placeholder="true"
+                    android:layout_weight="1"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#DFE1E2"
+                    android:gravity="center"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:id="@+id/tv0" />
+                <TextView
+                    p4:placeholder="true"
+                    android:text="⏎"
+                    android:layout_weight="1"
+                    android:minWidth="30px"
+                    android:minHeight="30px"
+                    android:textSize="20dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#DFE1E2"
+                    android:gravity="center"
+                    xmlns:p4="http://xamarin.com/mono/android/designer"
+                    android:id="@+id/tvEnter" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+</LinearLayout>

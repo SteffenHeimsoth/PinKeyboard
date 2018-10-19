@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_blue_grey_800">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36dp"
+        android:text="Custom PIN Keyboard" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:password="true"
+            android:layout_gravity="center"
+            android:hint="****"
+            android:layout_marginTop="10dp"
+            android:textSize="36dp"
+            android:id="@+id/pw"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="⌫"
+            android:textSize="30dp"
+            android:background="@color/material_blue_grey_800"
+            android:id="@+id/Backspace"/>
+    </LinearLayout>
+ 
+        
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:id="@+id/t1"
+            android:text="t1"
+            android:textSize="40dp"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:visibility="visible"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:background="@drawable/circle"
+            
+            
+      />
+        <TextView
+            android:id="@+id/t2"
+            android:text="t2"
+            android:textSize="40dp"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="@drawable/circle"
+            android:layout_marginLeft="30dp" />
+        <TextView
+            android:id="@+id/t3"
+            android:text="t3"
+            android:textSize="40dp"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="@drawable/circle"
+            android:layout_marginLeft="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:id="@+id/t4"
+            android:text="t4"
+            android:textSize="40dp"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="@drawable/circle" />
+        <TextView
+            android:id="@+id/t5"
+            android:text="t5"
+            android:textSize="40dp"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="@drawable/circle"
+            android:layout_marginLeft="30dp" />
+        <TextView
+            android:id="@+id/t6"
+            android:text="t6"
+            android:textSize="40dp"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="@drawable/circle"
+            android:layout_marginLeft="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:id="@+id/t7"
+            android:text="t7"
+            android:textSize="40dp"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="@drawable/circle"/>
+        <TextView
+            android:id="@+id/t8"
+            android:text="t8"
+            android:textSize="40dp"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="@drawable/circle"
+            android:layout_marginLeft="30dp" />
+        <TextView
+            android:id="@+id/t9"
+            android:text="t9"
+            android:textSize="40dp"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="@drawable/circle"
+            android:layout_marginLeft="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp">
+     
+        <TextView
+            android:id="@+id/t0"
+            android:layout_marginLeft="80dp"
+            android:text="t0"
+            android:textSize="40dp"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="@drawable/circle"/>
+ 
+    </LinearLayout>
+
+    <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:visibility="invisible"
+      android:id="@+id/button"
+      android:text="Done"
+      android:textSize="30dp"/>
+      
+ 
+  
+</LinearLayout>
+
