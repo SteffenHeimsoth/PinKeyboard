@@ -73,7 +73,7 @@ namespace PinKeyboard.Droid
             keyArray[9] = View.FindViewById<TextView>(Resource.Id.tv0);
             keyArray[10] = View.FindViewById<TextView>(Resource.Id.tvBackspace);
             keyArray[11] = View.FindViewById<TextView>(Resource.Id.tvEnter);
-           
+
             RandomizeKeyboard();
             initDelegates();
 

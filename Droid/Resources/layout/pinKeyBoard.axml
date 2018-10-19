@@ -25,8 +25,6 @@
                 <TextView
                     p4:placeholder="true"
                     android:layout_weight="1"
-                    android:minWidth="30px"
-                    android:minHeight="30px"
                     android:textSize="20dp"
                     android:layout_height="match_parent"
                     xmlns:p4="http://xamarin.com/mono/android/designer"
