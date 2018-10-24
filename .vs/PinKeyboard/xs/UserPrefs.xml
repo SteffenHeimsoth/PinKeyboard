@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{D653929B-ECC8-4800-8ED0-98391E5436D5}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/PinKeyboardFragment.cs">
     <Files>
-      <File FileName="Droid/PinKeyboardFragment.cs" Line="79" Column="29" />
-      <File FileName="Droid/PinInputFragment.cs" Line="80" Column="31" />
-      <File FileName="Droid/MainActivity.cs" Line="123" Column="29" />
+      <File FileName="Droid/PinKeyboardFragment.cs" Line="94" Column="12" />
+      <File FileName="Droid/MainActivity.cs" Line="60" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/SHeimsoth/Projects/PinKeyboard/Droid/Resources/layout/PinKeyboard.axml" relfile="Droid/Resources/layout/PinKeyboard.axml" line="64" column="1" />

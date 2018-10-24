@@ -87,6 +87,27 @@ namespace PinKeyboard.Droid
            
         }
 
+        public override void OnBackPressed()
+        {
+            var fragment = SupportFragmentManager.FindFragmentByTag("PINKEYBOARDFRAGMENT");
+            if (fragment == null)
+            {
+                base.OnBackPressed();
+            } else {
+                RunOnUiThread(() =>
+                {
+                    var transaction = SupportFragmentManager.BeginTransaction();
+                    transaction.Remove(pinKeyBoardFragment);
+                    transaction.Commit();
+
+                    SupportFragmentManager.ExecutePendingTransactions();
+
+                });
+                pinKeyFragmentVisible = false;
+            }
+        }
+
+
         internal void FragmentButtonClicked(string text)
         {
             Toast.MakeText(this, text, ToastLength.Short).Show();
@@ -156,5 +177,6 @@ namespace PinKeyboard.Droid
             return keycode;
         }
     }
+
 }
 
