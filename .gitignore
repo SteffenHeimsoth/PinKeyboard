@@ -6,3 +6,7 @@ Droid/obj/Release/
 Droid/bin/Debug/
 
 Droid/bin/Release/
+
+iOS/obj/iPhoneSimulator/
+
+iOS/bin/iPhoneSimulator/

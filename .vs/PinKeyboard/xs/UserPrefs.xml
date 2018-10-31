@@ -1,20 +1,21 @@
-﻿<Properties StartupConfiguration="{D653929B-ECC8-4800-8ED0-98391E5436D5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/PinKeyboardFragment.cs">
+﻿<Properties StartupConfiguration="{B7D82102-C1A2-43B9-9803-500F74DD3921}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/CustomKeyBoardView.xib">
     <Files>
-      <File FileName="Droid/PinKeyboardFragment.cs" Line="94" Column="12" />
-      <File FileName="Droid/MainActivity.cs" Line="60" Column="1" />
+      <File FileName="iOS/CustomKeyBoard.cs" Line="36" Column="13" />
+      <File FileName="Droid/PinKeyboardFragment.cs" Line="23" Column="9" />
+      <File FileName="iOS/ViewController.cs" Line="27" Column="13" />
+      <File FileName="iOS/CustomKeyBoardView.xib" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/SHeimsoth/Projects/PinKeyboard/Droid/Resources/layout/PinKeyboard.axml" relfile="Droid/Resources/layout/PinKeyboard.axml" line="64" column="1" />
+      <Breakpoint file="/Users/SHeimsoth/Projects/PinKeyboard/iOS/CustomPinKeyboard.cs" relfile="iOS/CustomPinKeyboard.cs" line="35" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.PinKeyboard.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.W3D4C16829007712" AndroidDesignerPreferredTheme="Theme.AppCompat.Light" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.PinKeyboard.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3135F11F-BF7E-4FE9-96A1-931FBDC6DD38">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.PinKeyboard.iOS>
+  <MonoDevelop.Ide.ItemProperties.PinKeyboard.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3135F11F-BF7E-4FE9-96A1-931FBDC6DD38" />
 </Properties>

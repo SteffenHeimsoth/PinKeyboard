@@ -76,6 +76,7 @@ namespace PinKeyboard.Droid
 
             RandomizeKeyboard();
             initDelegates();
+            
 
             
 

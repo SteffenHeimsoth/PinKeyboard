@@ -23,6 +23,7 @@ namespace PinKeyboard.iOS
                 var title = string.Format("{0} clicks!", count++);
                 Button.SetTitle(title, UIControlState.Normal);
             };
+            tfPin.InputView = new CustomKeyBoard();
         }
 
         public override void DidReceiveMemoryWarning()

@@ -10,7 +10,7 @@ namespace PinKeyboard.iOS
     {
         // class-level declarations
 
-        public override UIWindow Window
+    public override UIWindow Window
         {
             get;
             set;
@@ -20,6 +20,7 @@ namespace PinKeyboard.iOS
         {
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
+   
 
             return true;
         }

@@ -16,11 +16,20 @@ namespace PinKeyboard.iOS
         [Outlet]
         UIKit.UIButton Button { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField tfPin { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
             if (Button != null) {
                 Button.Dispose ();
                 Button = null;
+            }
+
+            if (tfPin != null) {
+                tfPin.Dispose ();
+                tfPin = null;
             }
         }
     }
