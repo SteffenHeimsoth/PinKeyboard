@@ -12,6 +12,21 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomKeyBoard">
             <connections>
                 <outlet property="TopView" destination="1" id="name-outlet-1"/>
+                <outlet property="btn1" destination="1446" id="name-outlet-1446"/>
+                <outlet property="btn2" destination="1447" id="name-outlet-1447"/>
+                <outlet property="btn3" destination="1448" id="name-outlet-1448"/>
+                <outlet property="btn4" destination="1450" id="name-outlet-1450"/>
+                <outlet property="btn5" destination="1451" id="name-outlet-1451"/>
+                <outlet property="btn6" destination="1452" id="name-outlet-1452"/>
+                <outlet property="btn7" destination="1454" id="name-outlet-1454"/>
+                <outlet property="btn8" destination="1455" id="name-outlet-1455"/>
+                <outlet property="btn9" destination="1456" id="name-outlet-1456"/>
+                <outlet property="btn10" destination="1595" id="name-outlet-1595"/>
+                <outlet property="btn11" destination="1594" id="name-outlet-1594"/>
+                <outlet property="btn12" destination="1596" id="name-outlet-1596"/>
+                <outlet property="btn11" destination="2393" id="name-outlet-2393"/>
+                <outlet property="btn10" destination="2394" id="name-outlet-2394"/>
+                <outlet property="btn12" destination="2395" id="name-outlet-2395"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -20,7 +35,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1176" fixedFrame="YES">
-                    <rect key="frame" x="139" y="64" width="138" height="90"/>
+                    <rect key="frame" x="139" y="64" width="138" height="120"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" id="1445" translatesAutoresizingMaskIntoConstraints="NO">
@@ -69,6 +84,23 @@
                                     <state key="normal" title="Button"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1456" translatesAutoresizingMaskIntoConstraints="NO">
+                                    <rect key="frame" x="92" y="0.0" width="46" height="30"/>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" id="2392" translatesAutoresizingMaskIntoConstraints="NO">
+                            <rect key="frame" x="0.0" y="90" width="138" height="30"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2393" translatesAutoresizingMaskIntoConstraints="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2394" translatesAutoresizingMaskIntoConstraints="NO">
+                                    <rect key="frame" x="46" y="0.0" width="46" height="30"/>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2395" translatesAutoresizingMaskIntoConstraints="NO">
                                     <rect key="frame" x="92" y="0.0" width="46" height="30"/>
                                     <state key="normal" title="Button"/>
                                 </button>

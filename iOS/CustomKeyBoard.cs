@@ -33,8 +33,23 @@ namespace PinKeyboard.iOS
         [Export("awakeFromNib")]
         public override void  AwakeFromNib()
         {
+        //    keyArray.SetValue(btn1, 0);
+        //    keyArray.SetValue(btn2, 1);
+        //    keyArray.SetValue(btn3, 2);
+        //    keyArray.SetValue(btn4, 3);
+        //    keyArray.SetValue(btn5, 4);
+        //    keyArray.SetValue(btn6, 5);
+        //    keyArray.SetValue(btn7, 6);
+        //    keyArray.SetValue(btn8, 7);
+        //    keyArray.SetValue(btn9, 8);
+        //    keyArray.SetValue(btn10, 9);
+        //    keyArray.SetValue(btn11, 10);
+        //    keyArray.SetValue(btn12, 11);
 
+        //    RandomizeKeyboard();
         }
+
+
 
         private void Initalize()
         {
@@ -44,7 +59,23 @@ namespace PinKeyboard.iOS
             Bounds = TopView.Bounds;
 
             AutoresizingMask = UIViewAutoresizing.FlexibleHeight;
-        }
+
+            keyArray.SetValue(btn1, 0);
+            keyArray.SetValue(btn2, 1);
+            keyArray.SetValue(btn3, 2);
+            keyArray.SetValue(btn4, 3);
+            keyArray.SetValue(btn5, 4);
+            keyArray.SetValue(btn6, 5);
+            keyArray.SetValue(btn7, 6);
+            keyArray.SetValue(btn8, 7);
+            keyArray.SetValue(btn9, 8);
+            keyArray.SetValue(btn10, 9);
+            keyArray.SetValue(btn11, 10);
+            keyArray.SetValue(btn12, 11);
+
+            RandomizeKeyboard();
+        
+    }
 
         private void RandomizeKeyboard()
         {
@@ -53,9 +84,12 @@ namespace PinKeyboard.iOS
 
             for (int i = 0; i < 10; i++)
             {
+                //keyArray[i].SetTitle(numbers.IndexOf(i).ToString(), UIControlState.Normal);
+                //keyArray[i].TitleLabel.Text = numbers.IndexOf(i).ToString();
 
-                keyArray[i].TitleLabel.Text = numbers.IndexOf(i).ToString();
+                //keyArray[i].Font = UIFont.SystemFontOfSize(35);
             }
+
         }
         public void Shuffle<T>(IList<T> list)
         {
