@@ -84,10 +84,10 @@ namespace PinKeyboard.iOS
 
             for (int i = 0; i < 10; i++)
             {
-                //keyArray[i].SetTitle(numbers.IndexOf(i).ToString(), UIControlState.Normal);
-                //keyArray[i].TitleLabel.Text = numbers.IndexOf(i).ToString();
+                keyArray[i].SetTitle(numbers.IndexOf(i).ToString(), UIControlState.Normal);
+                keyArray[i].TitleLabel.Text = numbers.IndexOf(i).ToString();
 
-                //keyArray[i].Font = UIFont.SystemFontOfSize(35);
+                keyArray[i].Font = UIFont.SystemFontOfSize(35);
             }
 
         }
