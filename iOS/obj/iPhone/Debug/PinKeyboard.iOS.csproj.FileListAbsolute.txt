@@ -1,0 +1,14 @@
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/bin/iPhone/Debug/PinKeyboard.iOS.exe
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/bin/iPhone/Debug/PinKeyboard.iOS.pdb
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/bin/iPhone/Debug/PinKeyboard.dll
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/bin/iPhone/Debug/PinKeyboard.pdb
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/obj/iPhone/Debug/device-builds/iphone6.2-12.0.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/obj/iPhone/Debug/device-builds/iphone6.2-12.0.1/actool/_PartialAppManifest.items
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/obj/iPhone/Debug/device-builds/iphone6.2-12.0.1/actool/_BundleResourceWithLogicalName.items
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/obj/iPhone/Debug/device-builds/iphone6.2-12.0.1/coremlc/_PartialAppManifest.items
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/obj/iPhone/Debug/device-builds/iphone6.2-12.0.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/obj/iPhone/Debug/device-builds/iphone6.2-12.0.1/optimized/
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/obj/iPhone/Debug/PinKeyboard.iOS.csproj.CoreCompileInputs.cache
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/obj/iPhone/Debug/PinKeyboard.iOS.csproj.CopyComplete
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/obj/iPhone/Debug/PinKeyboard.iOS.exe
+/Users/SHeimsoth/Projects/PinKeyboard/iOS/obj/iPhone/Debug/PinKeyboard.iOS.pdb

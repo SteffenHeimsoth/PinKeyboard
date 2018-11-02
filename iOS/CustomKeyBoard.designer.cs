@@ -63,6 +63,10 @@ namespace PinKeyboard.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIStackView StackView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIView TopView { get; set; }
 
         void ReleaseDesignerOutlets ()
@@ -125,6 +129,11 @@ namespace PinKeyboard.iOS
             if (btn9 != null) {
                 btn9.Dispose ();
                 btn9 = null;
+            }
+
+            if (StackView != null) {
+                StackView.Dispose ();
+                StackView = null;
             }
 
             if (TopView != null) {

@@ -23,7 +23,9 @@ namespace PinKeyboard.iOS
                 var title = string.Format("{0} clicks!", count++);
                 Button.SetTitle(title, UIControlState.Normal);
             };
-
+            CustomKeyBoard customKeyBoard = new CustomKeyBoard();
+            tfPin.InputView = customKeyBoard;
+            tfpin2.InputView = customKeyBoard;
 
         }
 
@@ -31,7 +33,27 @@ namespace PinKeyboard.iOS
         {
             base.ViewWillAppear(animated);
 
-            tfPin.InputView = new CustomKeyBoard();
+
+        }
+
+        public override void ViewDidAppear(bool animated)
+        {
+            base.ViewDidAppear(animated);
+
+
+
+            Console.WriteLine("controller");
+            Console.WriteLine("{0}", TopView.Frame);
+
+        }
+
+        
+
+        public override void ViewDidLayoutSubviews()
+        {
+            base.ViewDidLayoutSubviews();
+            //tfPin.InputView.Frame = TopView.Frame;
+    
         }
 
         public override void DidReceiveMemoryWarning()
@@ -39,5 +61,11 @@ namespace PinKeyboard.iOS
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.		
         }
+
+      
+    
+    
+    
     }
+       
 }

@@ -4,22 +4,15 @@ using System.CodeDom.Compiler;
 using UIKit;
 using ObjCRuntime;
 using System.Collections.Generic;
+using CoreGraphics;
 
 namespace PinKeyboard.iOS
 
 {
     public partial class CustomKeyBoard : UIView
     {
-        private IOnKeyPressed mCallback;
         private Random rng = new Random();
         private UIButton[] keyArray = new UIButton[12];
-
-        public interface IOnKeyPressed
-        {
-            string OnKeyPressed(string key);
-        }
-
-
 
         public CustomKeyBoard (IntPtr handle) : base (handle)
         {
@@ -30,35 +23,17 @@ namespace PinKeyboard.iOS
             Initalize();
         }
 
-        [Export("awakeFromNib")]
-        public override void  AwakeFromNib()
-        {
-        //    keyArray.SetValue(btn1, 0);
-        //    keyArray.SetValue(btn2, 1);
-        //    keyArray.SetValue(btn3, 2);
-        //    keyArray.SetValue(btn4, 3);
-        //    keyArray.SetValue(btn5, 4);
-        //    keyArray.SetValue(btn6, 5);
-        //    keyArray.SetValue(btn7, 6);
-        //    keyArray.SetValue(btn8, 7);
-        //    keyArray.SetValue(btn9, 8);
-        //    keyArray.SetValue(btn10, 9);
-        //    keyArray.SetValue(btn11, 10);
-        //    keyArray.SetValue(btn12, 11);
-
-        //    RandomizeKeyboard();
-        }
-
-
 
         private void Initalize()
         {
+
             NSBundle.MainBundle.LoadNib("CustomKeyBoardView", this, null);
+   
             AddSubview(TopView);
 
             Bounds = TopView.Bounds;
-
-            AutoresizingMask = UIViewAutoresizing.FlexibleHeight;
+            
+            //AutoresizingMask = UIViewAutoresizing.FlexibleDimensions;
 
             keyArray.SetValue(btn1, 0);
             keyArray.SetValue(btn2, 1);
@@ -72,10 +47,45 @@ namespace PinKeyboard.iOS
             keyArray.SetValue(btn10, 9);
             keyArray.SetValue(btn11, 10);
             keyArray.SetValue(btn12, 11);
-
             RandomizeKeyboard();
-        
-    }
+     
+            TranslatesAutoresizingMaskIntoConstraints = false;
+         
+        }
+
+
+
+        [Export ("TextKeyClicked:")]
+        private void TextKeyClicked(UIButton sender){
+
+            var firstResponder = ResponderUtils.GetFirstResponder() as UITextField;
+            string key = sender.TitleLabel.Text;
+            if (int.TryParse(key, out int result))
+            {
+                firstResponder.InsertText(key);
+            }
+            else if (sender == btn11)
+            {
+                firstResponder.DeleteBackward();
+            }
+            else if (sender == btn12)
+            {
+                firstResponder.EndEditing(true);
+            }
+
+        }
+
+        public override void LayoutSubviews()
+        {
+            base.LayoutSubviews();
+            StackView.Frame = Frame;
+            StackView.Bounds = new CGRect(0, 0, Bounds.Width, 240);
+
+            Console.WriteLine("customkeyboard");
+            Console.WriteLine("{0}", Frame);
+            Console.WriteLine("{0}", Bounds);
+        }
+
 
         private void RandomizeKeyboard()
         {
@@ -103,8 +113,6 @@ namespace PinKeyboard.iOS
                 list[n] = value;
             }
         }
-
-
 
     }
 }

@@ -20,6 +20,14 @@ namespace PinKeyboard.iOS
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField tfPin { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField tfpin2 { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIView TopView { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
             if (Button != null) {
@@ -30,6 +38,16 @@ namespace PinKeyboard.iOS
             if (tfPin != null) {
                 tfPin.Dispose ();
                 tfPin = null;
+            }
+
+            if (tfpin2 != null) {
+                tfpin2.Dispose ();
+                tfpin2 = null;
+            }
+
+            if (TopView != null) {
+                TopView.Dispose ();
+                TopView = null;
             }
         }
     }

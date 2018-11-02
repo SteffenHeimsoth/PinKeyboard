@@ -30,6 +30,13 @@
                                 <textInputTraits key="textInputTraits" textContentType="password" keyboardType="numberPad"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="428" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="****">
+                                <rect key="frame" x="132" y="490" width="167" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <textInputTraits key="textInputTraits" textContentType="password" keyboardType="numberPad"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -40,6 +47,8 @@
                     <connections>
                         <outlet property="Button" destination="oBE-Ac-vcx" id="OkX-0Z-gth"/>
                         <outlet property="tfPin" destination="203" id="name-outlet-203"/>
+                        <outlet property="TopView" destination="8bC-Xf-vdC" id="name-outlet-8bC-Xf-vdC"/>
+                        <outlet property="tfpin2" destination="428" id="name-outlet-428"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
