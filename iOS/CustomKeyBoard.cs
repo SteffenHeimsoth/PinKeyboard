@@ -9,6 +9,7 @@ using CoreGraphics;
 namespace PinKeyboard.iOS
 
 {
+
     public partial class CustomKeyBoard : UIView
     {
         private Random rng = new Random();
@@ -78,8 +79,11 @@ namespace PinKeyboard.iOS
         public override void LayoutSubviews()
         {
             base.LayoutSubviews();
+  
             StackView.Frame = Frame;
-            StackView.Bounds = new CGRect(0, 0, Bounds.Width, 240);
+            StackView.Bounds = new CGRect(0, 0, Bounds.Width -10, 200);
+            TopView.BackgroundColor = UIColor.FromRGB(201, 211, 217);
+
 
             Console.WriteLine("customkeyboard");
             Console.WriteLine("{0}", Frame);
@@ -97,7 +101,25 @@ namespace PinKeyboard.iOS
                 keyArray[i].SetTitle(numbers.IndexOf(i).ToString(), UIControlState.Normal);
                 keyArray[i].TitleLabel.Text = numbers.IndexOf(i).ToString();
 
-                keyArray[i].Font = UIFont.SystemFontOfSize(35);
+
+            }
+            foreach (UIButton button in keyArray){
+
+                button.BackgroundColor = UIColor.White;
+                button.SetTitleColor(UIColor.Black, UIControlState.Normal);
+                button.Font = UIFont.SystemFontOfSize(25);
+
+                //rounded
+                button.Layer.CornerRadius = 5;
+                button.ClipsToBounds = true;
+
+                // shadow
+                button.Layer.MasksToBounds = false;
+                button.Layer.ShadowColor = UIColor.Black.CGColor;
+                button.Layer.ShadowOpacity = 1;
+                button.Layer.ShadowRadius = 0;
+                button.Layer.ShadowOffset = new CGSize(0, 0.5);
+                                        
             }
 
         }

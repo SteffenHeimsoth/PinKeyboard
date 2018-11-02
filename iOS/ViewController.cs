@@ -24,6 +24,7 @@ namespace PinKeyboard.iOS
                 Button.SetTitle(title, UIControlState.Normal);
             };
             CustomKeyBoard customKeyBoard = new CustomKeyBoard();
+            //customKeyBoard.Bounds = new CoreGraphics.CGRect(0, 0, View.Bounds.Width, 400);
             tfPin.InputView = customKeyBoard;
             tfpin2.InputView = customKeyBoard;
 
